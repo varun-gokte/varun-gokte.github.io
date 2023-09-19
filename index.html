@@ -1,30 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Profile</title>
-        <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-        crossorigin="anonymous"
-        />
-    </head>
 
-    <body>
-        <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+<head>
+    <title> Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"
-        ></script>
-        <h3>Varun Gokte's Profile</h3>
-        <h4>Projects:</h4>
-        <div class="card" style="width: 18rem;">
+        crossorigin="anonymous"></script>
+    <h3 class="m-5">Varun Gokte's Profile</h3>
+    <h4 class="mx-5">Projects:</h4>
+    <div class="row row-cols-2 row-cols-md-1 g-2 mx-5">
+        <div class="card mx-3" style="width: 18rem;">
             <div class="card-body">
-              <h5 class="card-title">Simple Calculator</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Using HTML CSS, and JavaScript</h6>
-              <p class="card-text">This is a simple calculator made using JavaScript, and implements basic arithmatic, squares, reciprocal, etc.</p>
-              <a href="/calc.html" class="card-link">Card link</a>
+                <h5 class="card-title">Simple Calculator</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Using HTML CSS, and JavaScript</h6>
+                <p class="card-text">This is a simple calculator made using JavaScript, and implements basic arithmatic,
+                    squares, reciprocal, etc.<br><br>
+                    Hosted using GitHub Pages</p>
+                <a href="./calc.html" class="card-link" target="_blank">See project</a>
             </div>
-          </div>
-    </body>
+        </div>
+
+        <div class="card mx-3" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Blog Website</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Using JavaScript, Django, and SQLite</h6>
+                <p class="card-text">This is a blog website, where you can register as a user, and write posts, and
+                    interact with other users' posts.<br><br>
+                    Hosted using AWS Elastic Beanstalk
+                </p>
+                <a href="http://env-blog.eba-yrp4wusd.us-west-2.elasticbeanstalk.com/" class="card-link"
+                    target="_blank">See project</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
 </html>
