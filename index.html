@@ -5,177 +5,231 @@
     <title> Varun Gokte's Profile</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link rel="stylesheet" href="index.css" />
 </head>
 
-<body style="background-color: rgb(34, 33, 33); color:aliceblue">
+<body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
-    <h3 class="m-5">Varun Gokte's Profile Page</h3>
 
-    <div class="mx-5">
-        <div class="d-flex m-3">
-            <img src="./images/envelope.svg" style="width:25px; filter: invert(100%);">
-            <p style="font-size:larger; margin-top: 10px; margin-left: 8px; margin-right: 10%;">
+    <div id="panel">
+        <h3 class="mt-5 mb-4 mx-3">Varun Gokte's Profile</h3>
+        <h6 class="m-4">2023 BITS Pilani graduate seeking Full Stack and SDE opportunities</h6>
+        <div class="d-flex mx-3 my-1">
+            <img src="./images/envelope.svg" class="inv_icon">
+            <p style="font-size:large; margin-top: 10px; margin-left: 8px; margin-right: 10%;">
                 vsgokte@gmail.com</p>
-
-            <img src="./images/telephone-fill.svg" style="width:25px; filter: invert(100%);">
-            <p style="font-size:larger; margin-top: 10px; margin-left: 8px; margin-right: 10%;">9820468029</p>
-
-            <img src="./images/file-text.svg" style="width:25px; filter: invert(100%);">
-            <a style="font-size:larger; margin-top: 10px; margin-left: 8px; margin-right: 10%; color:azure; text-decoration: none;"
+        </div>
+        <div class="d-flex mx-3 my-1">
+            <img src="./images/telephone-fill.svg" class="inv_icon">
+            <p style="font-size:large; margin-top: 10px; margin-left: 8px; margin-right: 10%;">9820468029</p>
+        </div>
+        <div class="d-flex mx-3 my-1">
+            <img src="./images/file-text.svg" class="inv_icon">
+            <a style="font-size:larger; margin-left: 8px; margin-right: 10%; color:azure; text-decoration: none;"
                 href="./Varun Gokte BITS Resume.pdf" target="_blank">Resume
                 <img src="./images/box-arrow-up-right.svg"
                     style="width:17px; filter: invert(100%); margin-left: 3px; margin-bottom: 6px;"></a>
-
-            <img src="./images/linkedin.svg" style="width:25px; filter: invert(100%);">
-            <a style="font-size:larger; margin-top: 10px; margin-left: 8px; margin-right: 10%; color:azure; text-decoration: none;"
-                href="https://www.linkedin.com/in/varun-gokte-2a6944274" target="_blank">LinkedIn Profile
-                <img src="./images/box-arrow-up-right.svg"
-                    style="width:17px; filter: invert(100%); margin-left: 3px; margin-bottom: 6px;"></a>
-
-            <img src="./images/github.svg" style="width:25px; filter: invert(100%);">
-            <a style="font-size:larger; margin-top: 10px; margin-left: 8px; color:azure; text-decoration: none;"
-                href="https://github.com/varun-gokte" target="_blank">GitHub Profile
-                <img src="./images/box-arrow-up-right.svg"
-                    style="width:17px; filter: invert(100%); margin-left: 3px; margin-bottom: 6px;"></a>
-
         </div>
-    </div>
-
-    <div class="m-5">
-        <h4>Key Skills</h4>
-        <style>
-            .card {
-                background-color: blanchedalmond;
-            }
-        </style>
-        <div class="row row-cols-1 row-cols-md-2 g-1">
-            <div class="card m-4" style="width: 7rem;">
-                <img class="card-img-top" src="./images/node-logo.png" alt="Node JS">
-                <div class="card-body">
-                    <p class="card-text">Node JS</p>
-                </div>
+        <br>
+        <br>
+        <div id="nav" class="mx-3">
+            <h5 class="my-1">Profile Navigation</h5>
+            <a href="#key" class="mx-2">Key Skills</a><br>
+            <a href="#proj" class="mx-2">Projects</a><br>
+            <a href="#cert" class="mx-2">Courses and Certifications </a>
+        </div>
+        <br>
+        <br>
+        <div id="bot">
+            <div class="d-flex mx-3 my-4">
+                <img src="./images/linkedin.svg" class="inv_icon">
+                <a style="font-size:larger; margin-left: 8px; margin-right: 10%; color:azure; text-decoration: none;"
+                    href="https://www.linkedin.com/in/varun-gokte-2a6944274" target="_blank">LinkedIn Profile
+                    <img src="./images/box-arrow-up-right.svg"
+                        style="width:17px; filter: invert(100%); margin-left: 3px; margin-bottom: 6px;"></a>
             </div>
-
-            <div class="card m-4" style="width: 7rem;">
-                <img class="card-img-top" src="./images/express.png" alt="Express">
-                <div class="card-body">
-                    <p class="card-text" style="margin-top: 12px;">Express JS</p>
-                </div>
-            </div>
-
-            <div class="card m-4" style="width: 7rem;">
-                <img class="card-img-top mt-1" src="./images/react.png" alt="React">
-                <div class="card-body">
-                    <p class="card-text" style="margin-top: 20px; margin-left: 14px;">React</p>
-                </div>
-            </div>
-
-            <div class="card m-4" style="width: 7rem;">
-                <img class="card-img-top mt-1" style="width: 80%; margin-left: 7px;" src="./images/django-logo.png"
-                    alt="Django">
-                <div class="card-body">
-                    <p class="card-text" style="margin-left: 6px;">Django</p>
-                </div>
-            </div>
-
-            <div class="card m-4" style="width: 7rem;">
-                <img class="card-img-top" src="./images/mongodb.png" alt="MongoDB">
-                <div class="card-body">
-                    <p class="card-text" style="margin-top: 6px;">MongoDB</p>
-                </div>
-            </div>
-
-            <div class=" card m-4" style="width: 7rem;">
-                <img class="card-img-top" src="./images/sql.png" alt="SQL">
-                <div class="card-body">
-                    <p class="card-text" style="margin-top: 6px; margin-left: 10px;">SQL</p>
-                </div>
-            </div>
-
-            <div class="card m-4" style="width: 7rem;">
-                <img class="card-img-top" src="./images/Python-logo-notext.svg.png" alt="Python">
-                <div class="card-body">
-                    <p class="card-text" style="margin-left: 6px;">Python</p>
-                </div>
-            </div>
-
-            <div class="card m-4" style="width: 7rem;">
-                <img class="card-img-top" src="./images/js.png" alt="JavaScript">
-                <div class="card-body">
-                    <p class="card-text" style="margin-top: 6px;">JavaScript</p>
-                </div>
-            </div>
-
-            <div class=" card m-4" style="width: 7rem;">
-                <img class="card-img-top " src="./images/java.png" alt="Java">
-                <div class="card-body">
-                    <p class="card-text" style="margin-top: 5px; margin-left: 14px;">Java</p>
-                </div>
-            </div>
-
-            <div class="card m-4" style="width: 7rem;">
-                <img class="card-img-top" src="./images/html.png" alt="HTML 5">
-                <div class="card-body">
-                    <p class="card-text" style="margin-top: 5px; margin-left: 7px;">HTML 5</p>
-                </div>
-            </div>
-
-            <div class="card m-4" style="width: 7rem;">
-                <img class="card-img-top" style="width: 93%;" src="./images/css.jpeg" alt="CSS">
-                <div class="card-body">
-                    <p class="card-text" style="margin-left: 20px;">CSS</p>
-                </div>
-            </div>
-
-            <div class="card m-4" style="width: 7rem;">
-                <img class="card-img-top" src="./images/docker.png" alt="Docker">
-                <div class="card-body">
-                    <p class="card-text" style="margin-top: 15px; margin-left: 14px;">Docker</p>
-                </div>
-            </div>
-
-            <div class="card m-4" style="width: 7rem;">
-                <img class="card-img-top" src="./images/github.svg" alt="Docker">
-                <div class="card-body">
-                    <p class="card-text" style="margin-left: 10px;">GitHub</p>
-                </div>
+            <div class="d-flex mx-3 my-4">
+                <img src="./images/github.svg" class="inv_icon">
+                <a style="font-size:larger; margin-left: 8px; color:azure; text-decoration: none;"
+                    href="https://github.com/varun-gokte" target="_blank">GitHub Profile
+                    <img src="./images/box-arrow-up-right.svg"
+                        style="width:17px; filter: invert(100%); margin-left: 3px; margin-bottom: 6px;"></a>
             </div>
         </div>
+
     </div>
 
-
-    <div class="d-flex">
+    <div id="content">
         <div class="m-5">
-            <h4>Projects</h4>
-            <div class="row row-cols-1 row-cols-md-2 g-1">
-                <div class="card mx-3" style="width: 18rem; background-color:rgb(26, 34, 26); color:azure">
+            <h4 class="title" id="key">Key Skills</h4>
+            <div class="row row-cols-1 row-cols-md-2 g-1" style="border: solid;">
+                <div class="card m-4 skill">
+                    <img class="card-img-top mt-1" style="width: 80%; margin-left: 7px;" src="./images/django-logo.png"
+                        alt="Django">
+                    <div class="card-body">
+                        <p class="card-text" style="margin-left: 6px;">Django</p>
+                    </div>
+                </div>
+
+                <div class="card m-4 skill">
+                    <img class="card-img-top" src="./images/node-logo.png" alt="Node JS">
+                    <div class="card-body">
+                        <p class="card-text">Node JS</p>
+                    </div>
+                </div>
+
+                <div class="card m-4 skill">
+                    <img class="card-img-top" src="./images/express.png" alt="Express">
+                    <div class="card-body">
+                        <p class="card-text" style="margin-top: 12px;">Express JS</p>
+                    </div>
+                </div>
+
+                <div class="card m-4 skill">
+                    <img class="card-img-top" src="./images/mongodb.png" alt="MongoDB">
+                    <div class="card-body">
+                        <p class="card-text" style="margin-top: 6px;">MongoDB</p>
+                    </div>
+                </div>
+
+                <div class="card m-4 skill">
+                    <img class="card-img-top mt-1" src="./images/react.png" alt="React">
+                    <div class="card-body">
+                        <p class="card-text" style="margin-top: 18px; margin-left: 10px;">React JS</p>
+                    </div>
+                </div>
+
+                <div class=" card m-4 skill">
+                    <img class="card-img-top" src="./images/sql.png" alt="SQL">
+                    <div class="card-body">
+                        <p class="card-text" style="margin-top: 6px; margin-left: 16px;">SQL</p>
+                    </div>
+                </div>
+
+                <div class="card m-4 skill">
+                    <img class="card-img-top" src="./images/Python-logo-notext.svg.png" alt="Python">
+                    <div class="card-body">
+                        <p class="card-text" style="margin-left: 8px;">Python</p>
+                    </div>
+                </div>
+
+                <div class="card m-4 skill">
+                    <img class="card-img-top" src="./images/js.png" alt="JavaScript">
+                    <div class="card-body">
+                        <p class="card-text" style="margin-top: 6px;">JavaScript</p>
+                    </div>
+                </div>
+
+                <div class="card m-4 skill">
+                    <img class="card-img-top " src="./images/java.png" alt="Java">
+                    <div class="card-body">
+                        <p class="card-text" style="margin-top: 5px; margin-left: 14px;">Java</p>
+                    </div>
+                </div>
+
+                <div class="card m-4 skill">
+                    <img class="card-img-top" src="./images/html.png" alt="HTML 5">
+                    <div class="card-body">
+                        <p class="card-text" style="margin-top: 5px; margin-left: 7px;">HTML 5</p>
+                    </div>
+                </div>
+
+                <div class="card m-4 skill">
+                    <img class="card-img-top" style="width: 93%;" src="./images/css.jpeg" alt="CSS">
+                    <div class="card-body">
+                        <p class="card-text" style="margin-left: 20px;">CSS</p>
+                    </div>
+                </div>
+
+                <div class="card m-4 skill">
+                    <img class="card-img-top" src="./images/docker.png" alt="Docker">
+                    <div class="card-body">
+                        <p class="card-text" style="margin-top: 15px; margin-left: 14px;">Docker</p>
+                    </div>
+                </div>
+
+                <div class="card m-4 skill">
+                    <img class="card-img-top" src="./images/github.svg" alt="Docker">
+                    <div class="card-body">
+                        <p class="card-text" style="margin-left: 10px;">GitHub</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="m-5">
+            <h4 class="title" id="proj">Projects</h4>
+            <div class="card-deck" style="border: solid;">
+                <div class="card m-3 project">
                     <div class="card-body">
                         <h5 class="card-title">Simple Calculator</h5>
-                        <h6 class="card-subtitle mb-2 text-muted" style="filter: invert(100%)">Using HTML CSS, and
+                        <h6 class="card-subtitle mb-2 text-muted" style="filter: invert(100%)">Using HTML, CSS, and
                             JavaScript</h6>
                         <p class="card-text">This is a simple calculator made using JavaScript, and implements basic
-                            arithmatic, reciprocal, squares, etc.<br><br>
-                            Hosted using GitHub Pages</p>
-                        <a href="./calc.html" class="card-link" target="_blank">See app</a>
+                            arithmatic, reciprocal, squares, etc.
+                        </p>
+                        <p class="card-text">Hosted using GitHub Pages</p>
+                        <a href="./calculator_app/calc.html" class="card-link" target="_blank">Go to app</a>
                         <a href="https://github.com/varun-gokte/simple-calculator-app" class="card-link"
                             target="_blank">Source code</a>
                     </div>
                 </div>
-                <br>
-                <div class="card mx-3" style="width: 18rem; background-color:rgb(26, 34, 26); color:azure;">
+                <div class="card m-3 project">
                     <div class="card-body">
                         <h5 class="card-title">Blog Website</h5>
                         <h6 class="card-subtitle mb-2 text-muted" style="filter: invert(100%)">Using JavaScript, Django,
                             and SQLite</h6>
                         <p class="card-text">This is a blog website, where you can register as a user, write posts, and
-                            interact with other users' posts.<br><br>
-                            Hosted using AWS Elastic Beanstalk
+                            interact with other users' posts.
                         </p>
+
+                        <p class="card-text">
+                            Features of this website included:
+                        <ul>
+                            <li>You can sign-up and login as a user</li>
+                            <li>Users can create blog posts</li>
+                            <li>Users can comment on and like or dislike other users' posts</li>
+                            <li>You can see posts written by or liked by other users</li>
+                        </ul>
+                        </p>
+
+                        <p class="card-text">
+                            Hosted using AWS Elastic Beanstalk</p>
                         <a href="http://env-blog.eba-yrp4wusd.us-west-2.elasticbeanstalk.com/" class="card-link"
-                            target="_blank">See website</a>
+                            target="_blank">Go to website</a>
                         <a href="https://github.com/varun-gokte/django-blog-app" class="card-link"
+                            target="_blank">Source
+                            code</a>
+                    </div>
+                </div>
+
+                <div class="card m-3 project">
+                    <div class="card-body">
+                        <h5 class="card-title">Movie List</h5>
+                        <h6 class="card-subtitle mb-2 text-muted" style="filter: invert(100%)">Using React</h6>
+                        <p class="card-text">A user can search for string, and this would display the names and posters
+                            of movies that matched.
+                        </p>
+                        <p class="card-text">
+                            The data was retrieved using the OMDb API, and the results were renderd using React.</p>
+                        <a href="https://github.com/varun-gokte/react-movie-list" class="card-link"
+                            target="_blank">Source
+                            code</a>
+                    </div>
+                </div>
+
+                <div class="card m-3 project">
+                    <div class="card-body">
+                        <h5 class="card-title">CRUD Server</h5>
+                        <h6 class="card-subtitle mb-2 text-muted" style="filter: invert(100%)">Using Node, Express, and
+                            MongoDB</h6>
+                        <p class="card-text">A server that had endpoints set up for CRUD operations. It stored the data
+                            and read it from a MongoDB database.
+                        </p>
+                        <a href="https://github.com/varun-gokte/react-movie-list" class="card-link"
                             target="_blank">Source
                             code</a>
                     </div>
@@ -184,56 +238,76 @@
         </div>
 
         <div class="m-5">
-            <h4>Courses & Certifications</h4>
-            <b>Full Stack Software Developer Certificate from IBM and Coursera</b> - <a
-                href="https://coursera.org/share/5b30588a6955075f878087c615278e73" target="_blank">See Certificate</a>
-            <ul>
-                <li class="m-2">Introduction to Cloud Computing -
-                    <a href="https://coursera.org/share/250f175a193c1dbd4713959233949d3f" target="_blank">See
+            <h4 class="title" id="cert">Courses & Certifications Completed</h4>
+            <div style="border: solid;">
+                <div class="m-3">
+                    <b>Full Stack Software Developer Certificate from IBM and Coursera</b> -
+                    <a href="https://coursera.org/share/5b30588a6955075f878087c615278e73" target="_blank">See
                         Certificate</a>
-                </li>
-                <li class="m-2">Introduction to Web Development with HTML, CSS, JavaScript -
-                    <a href="https://coursera.org/share/4d2c27169f9c5f588633bbefb43cb9ee" target="_blank">See
+                </div>
+
+                <ul>
+                    <li class="m-4">Introduction to Cloud Computing -
+                        <a href="https://coursera.org/share/250f175a193c1dbd4713959233949d3f" target="_blank">See
+                            Certificate</a>
+                    </li>
+                    <li class="m-4">Introduction to Web Development with HTML, CSS, JavaScript -
+                        <a href="https://coursera.org/share/4d2c27169f9c5f588633bbefb43cb9ee" target="_blank">See
+                            Certificate</a>
+                    </li>
+                    <li class="m-4">Getting Started with Git and GitHub -
+                        <a href="https://coursera.org/share/01e159dc7ddc85cde0b35634c06b79a9" target="_blank">See
+                            Certificate</a>
+                    </li>
+                    <li class="m-4">Developing Front-End Apps with React -
+                        <a href="https://coursera.org/share/3b7b7f890c9a72d6e2a4d2247f1c4d77" target="_blank">See
+                            Certificate</a>
+                    </li>
+                    <li class="m-4">Developing Back-End Apps with Node.js and Express -
+                        <a href="https://coursera.org/share/b025f8ddca696d82e1b737480c82b769" target="_blank">See
+                            Certificate</a>
+                    </li>
+                    <li class="m-4">Python for Data Science, AI & Development -
+                        <a href="https://coursera.org/share/577c9bcf07459df260d54cce8f09469f" target="_blank">See
+                            Certificate</a>
+                    </li>
+                    <li class="m-4">Django Application Development with SQL and Databases -
+                        <a href="https://coursera.org/share/47d8c39642888094ad458b5e44a3c9f3" target="_blank">See
+                            Certificate</a>
+                    </li>
+                    <li class="m-4">Introduction to Containers w/ Docker, Kubernetes & OpenShift -
+                        <a href="https://coursera.org/share/cfa7b88b913e4a8446b9dc706c0802b0" target="_blank">See
+                            Certificate</a>
+                    </li>
+                    <li class="m-4">Application Development using Microservices and Serverless -
+                        <a href="https://coursera.org/share/4fa1b8d2f654495a0b692b65d9964ad5" target="_blank">See
+                            Certificate</a>
+                    </li>
+                </ul>
+                <hr class="m-3" style="width: 47%;">
+                <div class="m-3">
+                    <b>Core Java Certificate from Coursera</b> -
+                    <a href="https://coursera.org/share/4c50af763ca868eed7b368a5dc5b896d" target="_blank">See
                         Certificate</a>
-                </li>
-                <li class="m-2">Getting Started with Git and GitHub -
-                    <a href="https://coursera.org/share/01e159dc7ddc85cde0b35634c06b79a9" target="_blank">See
+                </div>
+
+                <hr class="m-3" style="width: 47%;">
+
+                <div class="m-3">
+                    <b>Python Certificate from Coursera</b> -
+                    <a href="https://coursera.org/share/0aba4760821a3a1343cf49759a67ccf9" target="_blank">See
                         Certificate</a>
-                </li>
-                <li class="m-2">Developing Front-End Apps with React -
-                    <a href="https://coursera.org/share/3b7b7f890c9a72d6e2a4d2247f1c4d77" target="_blank">See
+                </div>
+
+                <hr class="m-3" style="width: 47%;">
+
+                <div class="m-3">
+                    <b>Introduction to SQL Course from Coursera</b> -
+                    <a href="https://coursera.org/share/05be0bbbd9526296e53e475646c64fbe" target="_blank">See
                         Certificate</a>
-                </li>
-                <li class="m-2">Developing Back-End Apps with Node.js and Express -
-                    <a href="https://coursera.org/share/b025f8ddca696d82e1b737480c82b769" target="_blank">See
-                        Certificate</a>
-                </li>
-                <li class="m-2">Python for Data Science, AI & Development -
-                    <a href="https://coursera.org/share/577c9bcf07459df260d54cce8f09469f" target="_blank">See
-                        Certificate</a>
-                </li>
-                <li class="m-2">Django Application Development with SQL and Databases -
-                    <a href="https://coursera.org/share/47d8c39642888094ad458b5e44a3c9f3" target="_blank">See
-                        Certificate</a>
-                </li>
-                <li class="m-2">Introduction to Containers w/ Docker, Kubernetes & OpenShift -
-                    <a href="https://coursera.org/share/cfa7b88b913e4a8446b9dc706c0802b0" target="_blank">See
-                        Certificate</a>
-                </li>
-                <li class="m-2">Application Development using Microservices and Serverless -
-                    <a href="https://coursera.org/share/4fa1b8d2f654495a0b692b65d9964ad5" target="_blank">See
-                        Certificate</a>
-                </li>
-            </ul>
-            <hr style="width: 47%;">
-            <b>Core Java Certificate from Coursera</b> -
-            <a href="https://coursera.org/share/4c50af763ca868eed7b368a5dc5b896d" target="_blank">See Certificate</a>
-            <hr style="width: 47%;">
-            <b>Python Certificate from Coursera</b> -
-            <a href="https://coursera.org/share/0aba4760821a3a1343cf49759a67ccf9" target="_blank">See Certificate</a>
-            <hr style="width: 47%;">
-            <b>Introduction to SQL Course from Coursera</b> -
-            <a href="https://coursera.org/share/05be0bbbd9526296e53e475646c64fbe" target="_blank">See Certificate</a>
+                </div>
+            </div>
+
         </div>
     </div>
 </body>

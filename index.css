@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(34, 33, 33); 
+    color:aliceblue;
+}
+
+#panel {
+    width: 23%;
+    height: 100%; 
+    border-right: solid; 
+    float: left; 
+    position: fixed;
+    overflow: auto ;
+}
+
+#content {
+    float: right;
+    width: 77%; 
+    position: relative;
+    top: 0px;
+
+}
+
+.inv_icon {
+    width:25px; 
+    filter: invert(100%);
+}
+
+.skill {
+    background-color: blanchedalmond;
+    width: 7rem;
+}
+
+.title {
+    color:rgb(110, 174, 203)
+}
+
+.project {
+    background-color:rgb(26, 34, 26); 
+    color:azure;
+}
+
+#bot{
+    bottom: 0%;
+    position: relative;
+}
