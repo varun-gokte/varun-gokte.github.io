@@ -4,7 +4,7 @@ body {
 }
 
 #panel {
-    width: 23%;
+    width: 20%;
     height: 100%; 
     border-right: solid; 
     float: left; 
@@ -14,7 +14,7 @@ body {
 
 #content {
     float: right;
-    width: 77%; 
+    width: 79%; 
     position: relative;
     top: 0px;
 
@@ -27,7 +27,7 @@ body {
 
 .skill {
     background-color: blanchedalmond;
-    width: 7rem;
+    width: 6rem;
 }
 
 .title {
