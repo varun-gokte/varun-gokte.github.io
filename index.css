@@ -35,11 +35,27 @@ body {
 }
 
 .project {
-    background-color:rgb(26, 34, 26); 
+    background-color:rgb(81, 90, 23); 
     color:azure;
 }
 
 #bot{
     bottom: 0%;
     position: relative;
+}
+
+a:hover{
+    color: rgb(57, 209, 15);
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+.info-link{
+    color: rgb(255, 255, 255);
+}
+
+.info-link:hover{
+    color: rgb(255, 255, 255);
 }
