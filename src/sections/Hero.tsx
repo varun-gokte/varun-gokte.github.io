@@ -99,8 +99,8 @@ export default function Hero() {
               textTransform: "none",
               "&:hover": { transform: "scale(1.05)", transition: "0.3s",  opacity: 0.9  }, 
 							backgroundColor: "white",
-    color: "#0284c7", // cyan-600
-    fontWeight: 600,
+							color: "#0284c7",
+							fontWeight: 600,
             }}
           >
             Download Resume
@@ -132,9 +132,9 @@ export default function Hero() {
             href="https://github.com/varun-gokte"
             target="_blank"
 						size="large"
-            sx={{ color: "white" }}
+            sx={{ color: "white"}}
           >
-            <GitHubIcon />
+            <GitHubIcon fontSize="large" />
           </IconButton>
           <IconButton
             href="https://linkedin.com/in/varun-gokte"
@@ -142,14 +142,14 @@ export default function Hero() {
 						size="large"
             sx={{ color: "white" }}
           >
-            <LinkedInIcon />
+            <LinkedInIcon fontSize="large" />
           </IconButton>
           <IconButton
             href="mailto:vsgokte@gmail.com"
 						size="large"
             sx={{ color: "white" }}
           >
-            <EmailIcon />
+            <EmailIcon fontSize="large" />
           </IconButton>
         </motion.div>
       </motion.div>

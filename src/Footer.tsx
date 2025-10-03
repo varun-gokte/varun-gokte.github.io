@@ -3,7 +3,7 @@ import { GitHub, LinkedIn } from "@mui/icons-material";
 
 export default function Footer() {
   return (
-    <AppBar id="#contact" position="static" color="default" sx={{ mt: 4, py: 2, borderTop: "4px solid", borderImage: "linear-gradient(90deg, #f3ec78, #af4261) 1" }}>
+    <AppBar id="#contact" position="static" color="default" sx={{ mt: 4, py: 2 }}>
 		  <Toolbar sx={{ display: "flex", justifyContent: "space-between", flexWrap: "wrap" }}>
         
         {/* Left side: Personal note */}

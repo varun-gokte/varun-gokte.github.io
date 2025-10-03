@@ -1,6 +1,8 @@
 import { Typography, Button, Container, Card, CardContent, Chip, Box, Stack } from "@mui/material";
 import { motion } from "framer-motion";
 import { projects } from "../data";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LaunchIcon from "@mui/icons-material/Launch";
 
 export default function Projects() {
   return (
@@ -22,7 +24,7 @@ export default function Projects() {
 						transition={{ duration: 0.5, delay: index * 0.1 }}
 						style={{ flex: "1 1 calc(50% - 12px)" }}
 					>
-						<Card className="hover:shadow-xl transition-shadow duration-300" sx={{ height: 200 }}>
+						<Card className="hover:shadow-xl transition-shadow duration-300" sx={{ height: 250 }}>
               <CardContent>
                 <Typography variant="h6" gutterBottom>
                   {project.name}
@@ -46,17 +48,30 @@ export default function Projects() {
                   ))}
                 </Box>
                 <Box className="mt-3 flex gap-2">
-                  {project.github && (
-                    <Button size="small" variant="outlined" href={project.github} target="_blank">
-                      GitHub
-                    </Button>
-                  )}
-                  {project.deployment && (
-                    <Button size="small" variant="contained" href={project.deployment} target="_blank">
-                      Live Demo
-                    </Button>
-                  )}
-                </Box>
+									{project.github && (
+										<Button
+											size="small"
+											variant="outlined"
+											startIcon={<GitHubIcon />}
+											endIcon={<LaunchIcon />}
+											href={project.github}
+											target="_blank"
+										>
+											Source Code
+										</Button>
+									)}
+									{project.deployment && (
+										<Button
+											size="small"
+											variant="contained"
+											endIcon={<LaunchIcon />}
+											href={project.deployment}
+											target="_blank"
+										>
+											Live Demo
+										</Button>
+									)}
+								</Box>
               </CardContent>
             </Card>
           </motion.div>

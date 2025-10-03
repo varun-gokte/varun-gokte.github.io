@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const skillsByCategory = {
   "Languages": ["JavaScript", "TypeScript", "Python", "Java"],
-  "Frontend": ["React", "Tailwind CSS", "Material UI", "Shadcn/ui", "HTML", "CSS"],
+  "Frontend": ["React", "Tailwind", "Material UI", "Shadcn/ui", "HTML & CSS"],
   "Backend": ["Node.js", "Express", "Django", "Flask", "WebSockets"],
   "Databases & ORMs": ["MongoDB", "SQL", "Mongoose", "SQLAlchemy"],
   "Testing & Automation": ["Playwright"],
