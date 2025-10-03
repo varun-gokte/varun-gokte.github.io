@@ -75,10 +75,10 @@ type ProjectType = {
 
 const projects: ProjectType = [
   {
-    name: "Resume Anaylser",
+    name: "Resume Anaylzer",
     bullets: ["TBD"],
     tech_stack: "Flask",
-    github: "",
+    github: "https://github.com/varun-gokte/resume_analyzer",
   },
   {
     name: "Sentiment Analysis Tool using Machine Learning",
@@ -87,7 +87,7 @@ const projects: ProjectType = [
       "Trained the model on a dataset of 10,000 tweets to enhance accuracy and performance."
     ],
     tech_stack: "Python, Natural Language Toolkit (NLTK)",
-    github: ""
+    github: "https://github.com/varun-gokte/sentiment_analysis"
   },
   {
     name: "Blog Website using Django",
@@ -95,13 +95,13 @@ const projects: ProjectType = [
       "A blog website with user registration, post creation, and interaction features."
     ],
     tech_stack: "HTML, CSS, JavaScript, Django, SQLite, Deployed using AWS Elastic Beanstalk",
-    github: ""
+    github: "https://github.com/varun-gokte/django-blog-app"
   },
   {
     name: "Portfolio Website",
     bullets: [],
     tech_stack: "React, MUI, Tailwind CSS, Framer Motion",
-    github: ""
+    github: "https://github.com/varun-gokte/varun-gokte.github.io"
   }
 ];
 
