@@ -6,7 +6,7 @@ import LaunchIcon from "@mui/icons-material/Launch";
 
 export default function Projects() {
   return (
-    <Container id="projects" maxWidth={false} sx={{p:6, pt:8,maxWidth: 1400,mx: "auto",}}>
+    <Container id="projects" maxWidth={false} sx={{p:4, pt:8,maxWidth: 1400,mx: "auto",}}>
       <Typography variant="h4" gutterBottom className="mb-6">
         Projects
       </Typography>
@@ -24,7 +24,7 @@ export default function Projects() {
 						transition={{ duration: 0.5, delay: index * 0.1 }}
 						style={{ flex: "1 1 calc(50% - 12px)" }}
 					>
-						<Card className="hover:shadow-xl transition-shadow duration-300" sx={{ height: 250 }}>
+						<Card className="hover:shadow-xl transition-shadow duration-300" sx={{ minHeight: 250 }}>
               <CardContent>
                 <Typography variant="h6" gutterBottom>
                   {project.name}

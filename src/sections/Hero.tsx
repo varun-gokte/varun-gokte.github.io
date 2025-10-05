@@ -37,6 +37,7 @@ export default function Hero() {
 
   return (
     <Box
+      id="hero"
       className="bg-gradient-to-r from-blue-600 to-cyan-500 relative"
       sx={{
         minHeight: {

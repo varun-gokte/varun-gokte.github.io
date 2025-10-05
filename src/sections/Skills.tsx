@@ -41,7 +41,7 @@ export default function SpreadsheetHexGrid() {
 						className="m-4 p-2 bg-blue-50/80 rounded-xl flex flex-col"
 					>
 						<h2 className="text-xl font-bold mb-2 text-center">{category}</h2>
-						<div className="flex flex-wrap justify-center gap-4">
+						<div className="grid justify-center grid-cols-2 xs:grid-cols-2 lg:grid-cols-3 justify-items-center">
 							{skills.map((skill, i) => (
 								<motion.div
 									key={skill}

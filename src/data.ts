@@ -94,7 +94,7 @@ const projects: ProjectType = [
     bullets: [
       "A blog website with user registration, post creation, and interaction features."
     ],
-    tech_stack: "HTML, CSS, JavaScript, Django, SQLite, Deployed using AWS Elastic Beanstalk",
+    tech_stack: "HTML, CSS, JavaScript, Django, SQLite, AWS Elastic Beanstalk",
     github: "https://github.com/varun-gokte/django-blog-app"
   },
   {

@@ -1,4 +1,4 @@
-import { AppBar, Toolbar, Typography, Button, IconButton, Menu, MenuItem, Box } from "@mui/material";
+import { AppBar, Toolbar, Button, IconButton, Menu, MenuItem, Box } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
 import { useTheme, useMediaQuery } from "@mui/material";
@@ -15,6 +15,12 @@ function Navbar(){
 	const handleMenuClose = () => {
 		setAnchorEl(null);
 	};
+
+	const scrollToHero = () => {
+    const nextSection = document.querySelector("#hero");
+    if (nextSection) nextSection.scrollIntoView({ behavior: "smooth" });
+  };
+
 	
 	return (
 		<AppBar position="sticky" 
@@ -25,9 +31,24 @@ function Navbar(){
 			}}
 		>
 			<Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
-				<Typography variant="h6">
+				<Button
+					onClick={scrollToHero}
+					component="p"
+					href="#"
+					variant="text"
+					sx={{
+						p: 0,
+						minWidth: "auto",
+						textTransform: "none",
+						color: "inherit",
+						fontSize: (theme) => theme.typography.h6.fontSize,
+						fontWeight: (theme) => theme.typography.h6.fontWeight,
+						lineHeight: (theme) => theme.typography.h6.lineHeight,
+						fontFamily: (theme) => theme.typography.h6.fontFamily,
+					}}
+				>
 					Varun Gokte
-				</Typography>
+				</Button>
 				<Box sx={{ display: "flex", gap: 3 }}>
 					{isMobile ? (
 						<>
@@ -41,6 +62,7 @@ function Navbar(){
 							>
 								<MenuItem onClick={handleMenuClose} component="a" href="#projects">Projects</MenuItem>
 								<MenuItem onClick={handleMenuClose} component="a" href="#experience">Work Experience</MenuItem>
+								<MenuItem onClick={handleMenuClose} component="a" href="#education">Education</MenuItem>
 								<MenuItem onClick={handleMenuClose} component="a" href="#skills">Technical Skills</MenuItem>
 							</Menu>
 						</>
@@ -48,6 +70,7 @@ function Navbar(){
 						<>
 							<Button color="inherit" href="#projects">Projects</Button>
 							<Button color="inherit" href="#experience">Work Experience</Button>
+							<Button color="inherit" href="#education">Education</Button>
 							<Button color="inherit" href="#skills">Technical Skills</Button>
 						</>
 					)}
