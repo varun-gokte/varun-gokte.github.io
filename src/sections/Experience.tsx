@@ -4,7 +4,7 @@ import { jobs } from "../data";
 
 export default function Experience() {
   return (
-    <Container id="experience" maxWidth={false} sx={{p: 4,maxWidth: 1400,mx: "auto",}}>
+    <Container id="experience" maxWidth={false} sx={{p: 4,maxWidth: 1400,mx: "auto",scrollMarginTop: "80px",}}>
 			<Typography variant="h4" gutterBottom className="mb-6 font-bold">
         Work Experience
       </Typography>

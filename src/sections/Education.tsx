@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function Education() {
   return (
-    <Container id="education" maxWidth={false} sx={{p:4, maxWidth: 1400,mx: "auto",}}>
+    <Container id="education" maxWidth={false} sx={{p:4, maxWidth: 1400, mx: "auto", scrollMarginTop: "80px"}}>
       <Typography 
         variant="h4"
         gutterBottom

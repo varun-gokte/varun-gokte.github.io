@@ -30,8 +30,12 @@ export default function SpreadsheetHexGrid() {
   const categories = Object.entries(skillsByCategory);
 
   return (
-    <Container id="skills" maxWidth={false} sx={{p: 4,maxWidth: 1400,mx: "auto",}}>
-      <Typography variant="h4" gutterBottom className="mb-6">
+    <Container id="skills" maxWidth={false} sx={{p: 4,maxWidth: 1400,mx: "auto",scrollMarginTop: "80px"}}>
+      <Typography 
+        variant="h4"
+        gutterBottom
+        className="mb-8 font-semibold text-left"
+			>
         Technical Skills
       </Typography>
 			<div className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-0  border-gray-300">
