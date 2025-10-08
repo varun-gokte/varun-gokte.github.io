@@ -1,4 +1,4 @@
-import { Typography, Container, Card, CardContent, CardMedia, Box, Grid } from "@mui/material";
+import { Typography, Container, Card, CardContent, CardMedia, Box, Grid, Chip } from "@mui/material";
 import { motion } from "framer-motion";
 import { jobs } from "../data";
 
@@ -58,9 +58,11 @@ export default function Experience() {
 														</li>
 													))}
 												</ul>
-												<Typography variant="body2" className="text-gray-700">
-													Tech Stack: {proj.tech_stack}
-												</Typography>
+                        <Box className="my-2 flex flex-wrap gap-1">
+                          {proj.tech_stack.split(",").map((tech) => (
+                            <Chip key={tech} label={tech.trim()} size="small" />
+                          ))}
+                        </Box>
 											</Box>
 										</Grid>
 									))}

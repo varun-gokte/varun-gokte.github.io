@@ -1,27 +1,6 @@
 import { Container, Typography } from "@mui/material";
 import { motion } from "framer-motion";
-
-const skillsByCategory = {
-  "Languages": ["JavaScript", "TypeScript", "Python", "Java"],
-  "Frontend": ["React", "Tailwind", "Material UI", "Shadcn/ui", "HTML & CSS"],
-  "Backend": ["Node.js", "Express", "Django", "Flask", "WebSockets"],
-  "Databases & ORMs": ["MongoDB", "SQL", "Mongoose", "SQLAlchemy"],
-  "Testing & Automation": ["Playwright"],
-  "Machine Learning / AI": ["Scikit-learn", "TensorFlow", "NLTK", "OpenAI API"],
-  "DevOps & Cloud": ["Docker", "Git/GitHub", "AWS Elastic Beanstalk", "Netlify", "Vercel"],
-  "Tools": ["Linux", "Google Colab", "Kaggle", "Cursor"]
-};
-
-const categoryColors: { [key: string]: string } = {
-  "Languages": "bg-blue-100 text-blue-700",
-  "Frontend": "bg-green-100 text-green-700",
-  "Backend": "bg-purple-100 text-purple-700",
-  "Databases & ORMs": "bg-yellow-100 text-yellow-700",
-  "Testing & Automation": "bg-pink-100 text-pink-700",
-  "Machine Learning / AI": "bg-red-100 text-red-700",
-  "DevOps & Cloud": "bg-indigo-100 text-indigo-700",
-  "Tools": "bg-teal-100 text-teal-700", 
-};
+import { skillsByCategory, categoryColors } from "../data";
 
 const hexClass =
   "w-24 h-24 flex items-center justify-center font-semibold shadow cursor-pointer text-center clip-hexagon";
