@@ -74,6 +74,17 @@ type ProjectType = {
 
 const projects: ProjectType = [
   {
+    name: "Document Chat",
+    bullets: [
+      "An AI-powered document chat application enabling users to upload PDFs and ask contextual questions, with semantic search and LLM-generated responses similar to Google NotebookLM.",
+      "Built using React and FastAPI, integrated with Qdrant for vector storage and Gemini API for embeddings & answer generation, achieving fast and accurate retrieval of relevant document chunks.",
+      "Deployed scalable architecture with frontend on Netlify and backend on Render."
+    ],
+    tech_stack: "React, FastAPI, Qdrant, Google Gemini API, Render & Netlify",
+    github: "https://github.com/varun-gokte/document_chat",
+    deployment: "https://querydocs.netlify.app"
+  },
+  {
     name: "Resume Anaylzer",
     bullets: [
       "Developed a Flask app that evaluates resumes against job descriptions, returning a match score using Sentence Transformers and Cosine Similarity.",
@@ -82,15 +93,6 @@ const projects: ProjectType = [
     tech_stack: "Flask, PostgreSQL, Docker, Sentence Transformer, PDFPlumber",
     github: "https://github.com/varun-gokte/resume_analyzer",
     // deployment: "https://resume-analyzer-fs4v.onrender.com"
-  },
-  {
-    name: "Sentiment Analysis Tool using Machine Learning",
-    bullets: [
-      "Developed a sentiment analysis app leveraging the Natural Language Toolkit (NLTK) and a Naïve Bayes Classifier to classify tweets as positive or negative.",
-      "Built and trained the model on a dataset of 10,000 tweets sourced from Kaggle, using Google Colab for development and experimentation."
-    ],
-    tech_stack: "Python, Natural Language Toolkit (NLTK), Google Colab",
-    github: "https://github.com/varun-gokte/sentiment_analysis"
   },
   {
     name: "Blog Website using Django",
