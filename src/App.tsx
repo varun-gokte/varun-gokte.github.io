@@ -8,7 +8,7 @@ import Skills from "./sections/Skills";
 
 function App() {
 	return(
-		<div className="bg-blue-100">
+		<div className="bg-slate-50">
 			<Navbar />
 			<Hero />
 			<Projects />

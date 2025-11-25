@@ -74,9 +74,9 @@ type ProjectType = {
 
 const projects: ProjectType = [
   {
-    name: "Document Chat",
+    name: "AI-Powered PDF Q&A System",
     bullets: [
-      "An AI-powered document chat application enabling users to upload PDFs and ask contextual questions, with semantic search and LLM-generated responses similar to Google NotebookLM.",
+      "Enabled users to upload PDFs and ask contextual questions, with semantic search and LLM-generated responses similar to Google NotebookLM.",
       "Built using React and FastAPI, integrated with Qdrant for vector storage and Gemini API for embeddings & answer generation, achieving fast and accurate retrieval of relevant document chunks.",
       "Deployed scalable architecture with frontend on Netlify and backend on Render."
     ],
@@ -117,7 +117,7 @@ const projects: ProjectType = [
 const skillsByCategory = {
   "Languages": ["JavaScript", "TypeScript", "Python", "Java"],
   "Frontend": ["React", "Tailwind", "Material UI", "HTML & CSS"],
-  "Backend": ["Node.js", "Express", "Django", "Flask", "WebSockets"],
+  "Backend": ["Node.js", "Express", "FastAPI", "Django", "Flask", "WebSockets"],
   "Databases & ORMs": ["MongoDB", "SQL", "Mongoose", "SQLAlchemy"],
   "Machine Learning / AI": ["Scikit-learn", "TensorFlow", "NLTK", "OpenAI API"],
   "DevOps & Cloud": ["Docker", "Git/GitHub", "AWS Elastic Beanstalk", "Vercel"],
